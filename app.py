@@ -1,20 +1,3 @@
-# flask
-Single Create, Read, Update, Delete with Mysql
-
-### Cài flask (nếu chưa cài)
-pip3 install flask
-
-### Cài Mysql (nếu chưa cài)
-pip3 install flask_mysqldb
-
-### Bật chế độ dev:
-```
-$ export FLASK_APP=example 
-$ export FLASK_ENV=development
-```
-
-### Tạo file app.py
-```
 from flask import Flask, render_template, request, json
 from flask_mysqldb import MySQL
 
@@ -66,8 +49,3 @@ def update_post(id):
 if __name__ == "__main__":
     # app.run()
     app.run(debug=True, port=5000)
-	
-```
-
-### chạy thử
-python app.py
