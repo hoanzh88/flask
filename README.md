@@ -69,5 +69,12 @@ if __name__ == "__main__":
 	
 ```
 
+### Tạo file template
+\templates\index.html
+```
+>Hello world
+```
+
+
 ### chạy thử
 python app.py
